@@ -362,7 +362,6 @@ The dashboard tracks business metrics including:
 
 # 8. Project Structure
 
-```text
 Supply-Chain-Analytics/
 │
 ├── Python/
@@ -374,9 +373,14 @@ Supply-Chain-Analytics/
 ├── PowerBI/
 │   └── Supply_Chain_Dashboard.pbix
 │
+├── Data/
+│   └── supply_chain_cleaned.csv
+│
 ├── Screenshots/
 │   ├── Executive_Overview.png
 │   ├── Product_Category_Performance.png
 │   └── Customer_Logistics_Analysis.png
 │
 └── README.md
+
+The original raw dataset is not included because of its large file size; the repository contains the processed dataset and the Python notebook documenting the data preparation workflow.
