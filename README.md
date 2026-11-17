@@ -362,6 +362,7 @@ The dashboard tracks business metrics including:
 
 # 8. Project Structure
 
+```text
 Supply-Chain-Analytics/
 │
 ├── Python/
@@ -382,5 +383,6 @@ Supply-Chain-Analytics/
 │   └── Customer_Logistics_Analysis.png
 │
 └── README.md
+```
 
 The original raw dataset is not included because of its large file size; the repository contains the processed dataset and the Python notebook documenting the data preparation workflow.
